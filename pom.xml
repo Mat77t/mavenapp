@@ -70,19 +70,7 @@
           <version>3.0.0</version>
         </plugin>
 
-<plugin>
-    <artifactId>maven-war-plugin</artifactId>
-    <configuration>
-        <attachClasses>false</attachClasses>
-        <webXml>target/web.xml</webXml>
-        <webResources>
-            <resource>
-                <directory>src/main/webapp</directory>
-                <filtering>true</filtering>
-            </resource>
-        </webResources>
-    </configuration>
-</plugin>
+
       </plugins>
     </pluginManagement>
   </build>
