@@ -73,7 +73,7 @@
 <plugin>
     <artifactId>maven-war-plugin</artifactId>
     <configuration>
-        <attachClasses>true</attachClasses>
+        <attachClasses>false</attachClasses>
         <webXml>target/web.xml</webXml>
         <webResources>
             <resource>
